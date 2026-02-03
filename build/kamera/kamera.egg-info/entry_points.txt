@@ -1,0 +1,5 @@
+[console_scripts]
+improved_idea = kamera.improved_idea:main
+poravnava = kamera.poravnava:main
+zajem_tock = kamera.zajem_tock:main
+

@@ -1,0 +1,84 @@
+[0.006s] Invoking command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake /home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_bringup_v4 -DCMAKE_INSTALL_PREFIX=/home/lab-3d/dobot_ws/install/cr_robot_ros2
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.081s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.136s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.191s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.321s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.377s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.407s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.512s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.529s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.567s] -- Looking for pthread.h
+[0.620s] -- Looking for pthread.h - found
+[0.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.734s] -- Found Threads: TRUE  
+[0.765s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.792s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.812s] -- Found dobot_msgs_v4: 0.0.0 (/home/lab-3d/dobot_ws/install/dobot_msgs_v4/share/dobot_msgs_v4/cmake)
+[0.827s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.877s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.878s] -- Configured cppcheck include dirs: /home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_bringup_v4/include;/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_bringup_v4/../../../install/dobot_msgs_v4/include;$<BUILD_INTERFACE:/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_bringup_v4/include>
+[0.879s] -- Configured cppcheck exclude dirs and/or files: 
+[0.880s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.880s] -- Configured cpplint exclude dirs and/or files: 
+[0.880s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.881s] -- Added test 'lint_cmake' to check CMake code style
+[0.881s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.883s] -- Added test 'uncrustify' to check C / C++ code style
+[0.883s] -- Configured uncrustify additional arguments: 
+[0.883s] -- Added test 'xmllint' to check XML markup files
+[0.884s] -- Configuring done
+[0.889s] -- Generating done
+[0.891s] -- Build files have been written to: /home/lab-3d/dobot_ws/build/cr_robot_ros2
+[0.898s] Invoked command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake /home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_bringup_v4 -DCMAKE_INSTALL_PREFIX=/home/lab-3d/dobot_ws/install/cr_robot_ros2
+[0.898s] Invoking command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/lab-3d/dobot_ws/build/cr_robot_ros2 -- -j24 -l24
+[0.940s] [ 16%] [32mBuilding CXX object CMakeFiles/cr_robot_ros2_node.dir/src/cr_robot_ros2.cpp.o[0m
+[0.942s] [ 33%] [32mBuilding CXX object CMakeFiles/cr_robot_ros2_node.dir/src/parseTool.cpp.o[0m
+[0.942s] [ 50%] [32mBuilding CXX object CMakeFiles/cr_robot_ros2_node.dir/src/main.cpp.o[0m
+[0.942s] [ 83%] [32mBuilding CXX object CMakeFiles/cr_robot_ros2_node.dir/src/tcp_socket.cpp.o[0m
+[0.942s] [ 83%] [32mBuilding CXX object CMakeFiles/cr_robot_ros2_node.dir/src/command.cpp.o[0m
+[31.543s] [100%] [32m[1mLinking CXX executable cr_robot_ros2_node[0m
+[33.593s] [100%] Built target cr_robot_ros2_node
+[33.603s] Invoked command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/lab-3d/dobot_ws/build/cr_robot_ros2 -- -j24 -l24
+[33.605s] Invoking command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/lab-3d/dobot_ws/build/cr_robot_ros2
+[33.612s] -- Install configuration: ""
+[33.612s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/lib/cr_robot_ros2/cr_robot_ros2_node
+[33.632s] -- Set runtime path of "/home/lab-3d/dobot_ws/install/cr_robot_ros2/lib/cr_robot_ros2/cr_robot_ros2_node" to ""
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/launch
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/launch/dobot_bringup_ros2.launch.py
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/config
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/config/param.json
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/ament_index/resource_index/package_run_dependencies/cr_robot_ros2
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/ament_index/resource_index/parent_prefix_path/cr_robot_ros2
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/ament_prefix_path.sh
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/ament_prefix_path.dsv
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/path.sh
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/path.dsv
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.bash
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.sh
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.zsh
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.dsv
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/package.dsv
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/ament_index/resource_index/packages/cr_robot_ros2
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/cmake/cr_robot_ros2Config.cmake
+[33.632s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/cmake/cr_robot_ros2Config-version.cmake
+[33.633s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/package.xml
+[33.634s] Invoked command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/lab-3d/dobot_ws/build/cr_robot_ros2

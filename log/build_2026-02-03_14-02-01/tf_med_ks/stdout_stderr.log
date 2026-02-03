@@ -1,0 +1,28 @@
+running egg_info
+writing ../../../build/tf_med_ks/tf_med_ks.egg-info/PKG-INFO
+writing dependency_links to ../../../build/tf_med_ks/tf_med_ks.egg-info/dependency_links.txt
+writing entry points to ../../../build/tf_med_ks/tf_med_ks.egg-info/entry_points.txt
+writing requirements to ../../../build/tf_med_ks/tf_med_ks.egg-info/requires.txt
+writing top-level names to ../../../build/tf_med_ks/tf_med_ks.egg-info/top_level.txt
+reading manifest file '../../../build/tf_med_ks/tf_med_ks.egg-info/SOURCES.txt'
+writing manifest file '../../../build/tf_med_ks/tf_med_ks.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages/tf_med_ks-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/tf_med_ks/tf_med_ks.egg-info to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages/tf_med_ks-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fejk_jakob script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing from_tool_to_table script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing inverse script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing inverse_kin script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing inverse_move_it script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing kamera script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing marker script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing marker2 script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing static_tf_broad script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+Installing trans_matrix script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+writing list of installed files to '/home/lab-3d/dobot_ws/build/tf_med_ks/install.log'

@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/lab-3d/dobot_ws/build/cr_robot_ros2 -- -j24 -l24
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target cr_robot_ros2_node[0m
+[0.198s] [100%] Built target cr_robot_ros2_node
+[0.208s] Invoked command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/lab-3d/dobot_ws/build/cr_robot_ros2 -- -j24 -l24
+[0.209s] Invoking command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/lab-3d/dobot_ws/build/cr_robot_ros2
+[0.217s] -- Install configuration: ""
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/lib/cr_robot_ros2/cr_robot_ros2_node
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/launch
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/launch/dobot_bringup_ros2.launch.py
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/config
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/config/param.json
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/ament_index/resource_index/package_run_dependencies/cr_robot_ros2
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/ament_index/resource_index/parent_prefix_path/cr_robot_ros2
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/ament_prefix_path.sh
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/ament_prefix_path.dsv
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/path.sh
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/environment/path.dsv
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.bash
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.sh
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.zsh
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/local_setup.dsv
+[0.218s] -- Installing: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/package.dsv
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/ament_index/resource_index/packages/cr_robot_ros2
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/cmake/cr_robot_ros2Config.cmake
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/cmake/cr_robot_ros2Config-version.cmake
+[0.218s] -- Up-to-date: /home/lab-3d/dobot_ws/install/cr_robot_ros2/share/cr_robot_ros2/package.xml
+[0.243s] Invoked command in '/home/lab-3d/dobot_ws/build/cr_robot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lab-3d/dobot_ws/install/dobot_msgs_v4:/home/lab-3d/dobot_ws/install/cr5_moveit:/home/lab-3d/dobot_ws/install/dobot_rviz:/home/lab-3d/dobot_ws/install/cr_robot_ros2:/home/lab-3d/dobot_ws/install/dobot_gazebo:/home/lab-3d/dobot_ws/install/cra_description:/home/lab-3d/dobot_ws/install/tf_med_ks:/home/lab-3d/dobot_ws/install/simulacija:/home/lab-3d/dobot_ws/install/miza:/home/lab-3d/dobot_ws/install/kamera:/home/lab-3d/dobot_ws/install/final_pkg:/home/lab-3d/dobot_ws/install/dobot_moveit:/home/lab-3d/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/lab-3d/dobot_ws/build/cr_robot_ros2

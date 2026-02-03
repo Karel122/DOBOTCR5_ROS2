@@ -1,0 +1,4 @@
+[console_scripts]
+miza_client = miza.miza_client:main
+povezava = miza.povezava:main
+

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/miza/miza.egg-info/PKG-INFO
+../../../build/miza/miza.egg-info/SOURCES.txt
+../../../build/miza/miza.egg-info/dependency_links.txt
+../../../build/miza/miza.egg-info/entry_points.txt
+../../../build/miza/miza.egg-info/requires.txt
+../../../build/miza/miza.egg-info/top_level.txt
+../../../build/miza/miza.egg-info/zip-safe
+miza/__init__.py
+miza/miza_client.py
+miza/povezava.py
+resource/miza
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

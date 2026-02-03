@@ -1,0 +1,5 @@
+int32   slave_id
+int32   baud
+string  parity
+int32   data_bit
+int32   stop_bit

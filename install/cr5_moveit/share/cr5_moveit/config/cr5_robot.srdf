@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="cr5_robot">
+
+    <!-- MoveIt group -->
+    <group name="cr5_group">
+        <chain base_link="base_link" tip_link="Link6"/>
+    </group>
+
+    <!-- Home pozicija -->
+    <group_state name="home" group="cr5_group">
+        <joint name="joint1" value="0"/>
+        <joint name="joint2" value="0.4337"/>
+        <joint name="joint3" value="-1.4695"/>
+        <joint name="joint4" value="-0.2602"/>
+        <joint name="joint5" value="1.7175"/>
+        <joint name="joint6" value="0"/>
+    </group_state>
+
+    <!-- Disable collisions -->
+    <disable_collisions link1="Link1" link2="Link2" reason="Adjacent"/>
+    <disable_collisions link1="Link1" link2="Link4" reason="Never"/>
+    <disable_collisions link1="Link1" link2="base_link" reason="Adjacent"/>
+    <disable_collisions link1="Link2" link2="Link3" reason="Adjacent"/>
+    <disable_collisions link1="Link2" link2="base_link" reason="Never"/>
+    <disable_collisions link1="Link3" link2="Link4" reason="Adjacent"/>
+    <disable_collisions link1="Link4" link2="Link5" reason="Adjacent"/>
+    <disable_collisions link1="Link4" link2="Link6" reason="Never"/>
+    <disable_collisions link1="Link4" link2="base_link" reason="Never"/>
+    <disable_collisions link1="Link5" link2="Link6" reason="Adjacent"/>
+
+    <!-- JOINT LIMITS – uradne meje CR5 -->
+    <joint_limits>
+
+        <!-- Joint 1 -->
+        <joint name="joint1"
+               has_position_limits="true"
+               min_position="-6.283185"
+               max_position="6.283185"/>
+
+        <!-- Joint 2 -->
+        <joint name="joint2"
+               has_position_limits="true"
+               min_position="-1.570796"
+               max_position="1.570796"/>
+
+        <!-- Joint 3 (POPRAVLJEN: bil napačen!) -->
+        <joint name="joint3"
+               has_position_limits="true"
+               min_position="-2.879793"
+               max_position="1.309000"/>
+
+        <!-- Joint 4 -->
+        <joint name="joint4"
+               has_position_limits="true"
+               min_position="-3.141593"
+               max_position="3.141593"/>
+
+        <!-- Joint 5 (POPRAVLJEN: CR5 ima ±180°, ne 2.18 rad!) -->
+        <joint name="joint5"
+               has_position_limits="true"
+               min_position="-3.141593"
+               max_position="3.141593"/>
+
+        <!-- Joint 6 -->
+        <joint name="joint6"
+               has_position_limits="true"
+               min_position="-6.283185"
+               max_position="6.283185"/>
+
+    </joint_limits>
+
+</robot>

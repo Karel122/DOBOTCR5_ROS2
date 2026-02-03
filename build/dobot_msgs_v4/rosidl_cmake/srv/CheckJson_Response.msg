@@ -1,0 +1,2 @@
+
+bool vrednost

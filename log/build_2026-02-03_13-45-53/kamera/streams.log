@@ -1,0 +1,63 @@
+[1.347s] Invoking command in '/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/kamera': PYTHONPATH=/home/lab-3d/dobot_ws/build/kamera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kamera build --build-base /home/lab-3d/dobot_ws/build/kamera/build install --record /home/lab-3d/dobot_ws/build/kamera/install.log --single-version-externally-managed install_data
+[1.507s] running egg_info
+[1.508s] creating ../../../build/kamera/kamera.egg-info
+[1.508s] writing ../../../build/kamera/kamera.egg-info/PKG-INFO
+[1.508s] writing dependency_links to ../../../build/kamera/kamera.egg-info/dependency_links.txt
+[1.508s] writing entry points to ../../../build/kamera/kamera.egg-info/entry_points.txt
+[1.508s] writing requirements to ../../../build/kamera/kamera.egg-info/requires.txt
+[1.508s] writing top-level names to ../../../build/kamera/kamera.egg-info/top_level.txt
+[1.508s] writing manifest file '../../../build/kamera/kamera.egg-info/SOURCES.txt'
+[1.511s] reading manifest file '../../../build/kamera/kamera.egg-info/SOURCES.txt'
+[1.511s] writing manifest file '../../../build/kamera/kamera.egg-info/SOURCES.txt'
+[1.511s] running build
+[1.511s] running build_py
+[1.512s] creating /home/lab-3d/dobot_ws/build/kamera/build
+[1.512s] creating /home/lab-3d/dobot_ws/build/kamera/build/lib
+[1.512s] creating /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/moj_zajem.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/three_poses.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/idea.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/postopek.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/slika_za_postopek.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/zajem_tock.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/poravnava.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/__init__.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/point_iz_glb_fund_mod.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] copying kamera/improved_idea.py -> /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera
+[1.512s] running install
+[1.512s] running install_lib
+[1.513s] creating /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/moj_zajem.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/three_poses.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/idea.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/postopek.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/slika_za_postopek.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/zajem_tock.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/poravnava.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/__init__.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/point_iz_glb_fund_mod.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] copying /home/lab-3d/dobot_ws/build/kamera/build/lib/kamera/improved_idea.py -> /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera
+[1.513s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/moj_zajem.py to moj_zajem.cpython-310.pyc
+[1.513s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/three_poses.py to three_poses.cpython-310.pyc
+[1.514s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/idea.py to idea.cpython-310.pyc
+[1.514s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/postopek.py to postopek.cpython-310.pyc
+[1.514s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/slika_za_postopek.py to slika_za_postopek.cpython-310.pyc
+[1.515s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/zajem_tock.py to zajem_tock.cpython-310.pyc
+[1.516s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/poravnava.py to poravnava.cpython-310.pyc
+[1.516s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/__init__.py to __init__.cpython-310.pyc
+[1.516s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/point_iz_glb_fund_mod.py to point_iz_glb_fund_mod.cpython-310.pyc
+[1.516s] byte-compiling /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera/improved_idea.py to improved_idea.cpython-310.pyc
+[1.518s] running install_data
+[1.518s] creating /home/lab-3d/dobot_ws/install/kamera/share/ament_index
+[1.518s] creating /home/lab-3d/dobot_ws/install/kamera/share/ament_index/resource_index
+[1.518s] creating /home/lab-3d/dobot_ws/install/kamera/share/ament_index/resource_index/packages
+[1.518s] copying resource/kamera -> /home/lab-3d/dobot_ws/install/kamera/share/ament_index/resource_index/packages
+[1.518s] copying package.xml -> /home/lab-3d/dobot_ws/install/kamera/share/kamera
+[1.518s] running install_egg_info
+[1.519s] Copying ../../../build/kamera/kamera.egg-info to /home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages/kamera-0.0.0-py3.10.egg-info
+[1.519s] running install_scripts
+[1.531s] Installing improved_idea script to /home/lab-3d/dobot_ws/install/kamera/lib/kamera
+[1.531s] Installing poravnava script to /home/lab-3d/dobot_ws/install/kamera/lib/kamera
+[1.531s] Installing zajem_tock script to /home/lab-3d/dobot_ws/install/kamera/lib/kamera
+[1.531s] writing list of installed files to '/home/lab-3d/dobot_ws/build/kamera/install.log'
+[1.547s] Invoked command in '/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/kamera' returned '0': PYTHONPATH=/home/lab-3d/dobot_ws/build/kamera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lab-3d/dobot_ws/install/kamera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kamera build --build-base /home/lab-3d/dobot_ws/build/kamera/build install --record /home/lab-3d/dobot_ws/build/kamera/install.log --single-version-externally-managed install_data

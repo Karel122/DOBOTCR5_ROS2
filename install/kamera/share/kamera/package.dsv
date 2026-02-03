@@ -1,0 +1,6 @@
+source;share/kamera/hook/pythonpath.ps1
+source;share/kamera/hook/pythonpath.dsv
+source;share/kamera/hook/pythonpath.sh
+source;share/kamera/hook/ament_prefix_path.ps1
+source;share/kamera/hook/ament_prefix_path.dsv
+source;share/kamera/hook/ament_prefix_path.sh

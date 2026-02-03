@@ -1,0 +1,12 @@
+[console_scripts]
+fejk_jakob = tf_med_ks.fejk_jakob:main
+from_tool_to_table = tf_med_ks.from_tool_to_table:main
+inverse = tf_med_ks.inverse:main
+inverse_kin = tf_med_ks.inverse_kin:main
+inverse_move_it = tf_med_ks.inverse_move_it:main
+kamera = tf_med_ks.kamera:main
+marker = tf_med_ks.marker:main
+marker2 = tf_med_ks.marker2:main
+static_tf_broad = tf_med_ks.static_tf_broad:main
+trans_matrix = tf_med_ks.trans_matrix:main
+

@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/simulacija/simulacija.egg-info
+writing ../../../build/simulacija/simulacija.egg-info/PKG-INFO
+writing dependency_links to ../../../build/simulacija/simulacija.egg-info/dependency_links.txt
+writing entry points to ../../../build/simulacija/simulacija.egg-info/entry_points.txt
+writing requirements to ../../../build/simulacija/simulacija.egg-info/requires.txt
+writing top-level names to ../../../build/simulacija/simulacija.egg-info/top_level.txt
+writing manifest file '../../../build/simulacija/simulacija.egg-info/SOURCES.txt'
+reading manifest file '../../../build/simulacija/simulacija.egg-info/SOURCES.txt'
+writing manifest file '../../../build/simulacija/simulacija.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lab-3d/dobot_ws/build/simulacija/build
+creating /home/lab-3d/dobot_ws/build/simulacija/build/lib
+creating /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija
+copying simulacija/premik.py -> /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija
+copying simulacija/inverse.py -> /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija
+copying simulacija/points.py -> /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija
+copying simulacija/get_rotation.py -> /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija
+copying simulacija/__init__.py -> /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija
+running install
+running install_lib
+creating /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija
+copying /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija/premik.py -> /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija
+copying /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija/inverse.py -> /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija
+copying /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija/points.py -> /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija
+copying /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija/get_rotation.py -> /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija
+copying /home/lab-3d/dobot_ws/build/simulacija/build/lib/simulacija/__init__.py -> /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija
+byte-compiling /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija/premik.py to premik.cpython-310.pyc
+byte-compiling /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija/inverse.py to inverse.cpython-310.pyc
+byte-compiling /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija/points.py to points.cpython-310.pyc
+byte-compiling /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija/get_rotation.py to get_rotation.cpython-310.pyc
+byte-compiling /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lab-3d/dobot_ws/install/simulacija/share/ament_index
+creating /home/lab-3d/dobot_ws/install/simulacija/share/ament_index/resource_index
+creating /home/lab-3d/dobot_ws/install/simulacija/share/ament_index/resource_index/packages
+copying resource/simulacija -> /home/lab-3d/dobot_ws/install/simulacija/share/ament_index/resource_index/packages
+copying package.xml -> /home/lab-3d/dobot_ws/install/simulacija/share/simulacija
+running install_egg_info
+Copying ../../../build/simulacija/simulacija.egg-info to /home/lab-3d/dobot_ws/install/simulacija/lib/python3.10/site-packages/simulacija-0.0.0-py3.10.egg-info
+running install_scripts
+Installing inverse script to /home/lab-3d/dobot_ws/install/simulacija/lib/simulacija
+Installing premik script to /home/lab-3d/dobot_ws/install/simulacija/lib/simulacija
+writing list of installed files to '/home/lab-3d/dobot_ws/build/simulacija/install.log'

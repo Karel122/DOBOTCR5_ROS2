@@ -1,0 +1,33 @@
+[1.448s] Invoking command in '/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/tf_med_ks': PYTHONPATH=/home/lab-3d/dobot_ws/build/tf_med_ks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tf_med_ks build --build-base /home/lab-3d/dobot_ws/build/tf_med_ks/build install --record /home/lab-3d/dobot_ws/build/tf_med_ks/install.log --single-version-externally-managed install_data
+[1.607s] running egg_info
+[1.608s] writing ../../../build/tf_med_ks/tf_med_ks.egg-info/PKG-INFO
+[1.608s] writing dependency_links to ../../../build/tf_med_ks/tf_med_ks.egg-info/dependency_links.txt
+[1.608s] writing entry points to ../../../build/tf_med_ks/tf_med_ks.egg-info/entry_points.txt
+[1.609s] writing requirements to ../../../build/tf_med_ks/tf_med_ks.egg-info/requires.txt
+[1.609s] writing top-level names to ../../../build/tf_med_ks/tf_med_ks.egg-info/top_level.txt
+[1.610s] reading manifest file '../../../build/tf_med_ks/tf_med_ks.egg-info/SOURCES.txt'
+[1.610s] writing manifest file '../../../build/tf_med_ks/tf_med_ks.egg-info/SOURCES.txt'
+[1.610s] running build
+[1.610s] running build_py
+[1.611s] copying tf_med_ks/marker.py -> /home/lab-3d/dobot_ws/build/tf_med_ks/build/lib/tf_med_ks
+[1.611s] running install
+[1.612s] running install_lib
+[1.612s] copying /home/lab-3d/dobot_ws/build/tf_med_ks/build/lib/tf_med_ks/marker.py -> /home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages/tf_med_ks
+[1.613s] byte-compiling /home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages/tf_med_ks/marker.py to marker.cpython-310.pyc
+[1.613s] running install_data
+[1.613s] running install_egg_info
+[1.613s] removing '/home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages/tf_med_ks-0.0.0-py3.10.egg-info' (and everything under it)
+[1.614s] Copying ../../../build/tf_med_ks/tf_med_ks.egg-info to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages/tf_med_ks-0.0.0-py3.10.egg-info
+[1.614s] running install_scripts
+[1.625s] Installing fejk_jakob script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing from_tool_to_table script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing inverse script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing inverse_kin script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing inverse_move_it script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing kamera script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing marker script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing marker2 script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing static_tf_broad script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.625s] Installing trans_matrix script to /home/lab-3d/dobot_ws/install/tf_med_ks/lib/tf_med_ks
+[1.626s] writing list of installed files to '/home/lab-3d/dobot_ws/build/tf_med_ks/install.log'
+[1.657s] Invoked command in '/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/tf_med_ks' returned '0': PYTHONPATH=/home/lab-3d/dobot_ws/build/tf_med_ks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lab-3d/dobot_ws/install/tf_med_ks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tf_med_ks build --build-base /home/lab-3d/dobot_ws/build/tf_med_ks/build install --record /home/lab-3d/dobot_ws/build/tf_med_ks/install.log --single-version-externally-managed install_data

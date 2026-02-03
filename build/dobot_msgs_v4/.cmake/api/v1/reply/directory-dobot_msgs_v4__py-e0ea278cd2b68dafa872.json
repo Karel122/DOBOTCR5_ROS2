@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dobot_msgs_v4__py",
+		"source" : "/home/lab-3d/dobot_ws/build/dobot_msgs_v4/dobot_msgs_v4__py"
+	}
+}

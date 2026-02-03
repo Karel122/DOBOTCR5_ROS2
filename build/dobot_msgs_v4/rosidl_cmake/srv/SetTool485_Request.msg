@@ -1,0 +1,4 @@
+int32  baudrate
+string parity
+int32  stop
+int32  identify

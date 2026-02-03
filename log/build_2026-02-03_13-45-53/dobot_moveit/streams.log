@@ -1,0 +1,46 @@
+[1.528s] Invoking command in '/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_moveit': PYTHONPATH=/home/lab-3d/dobot_ws/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_moveit build --build-base /home/lab-3d/dobot_ws/build/dobot_moveit/build install --record /home/lab-3d/dobot_ws/build/dobot_moveit/install.log --single-version-externally-managed install_data
+[1.689s] running egg_info
+[1.689s] creating ../../../build/dobot_moveit/dobot_moveit.egg-info
+[1.689s] writing ../../../build/dobot_moveit/dobot_moveit.egg-info/PKG-INFO
+[1.689s] writing dependency_links to ../../../build/dobot_moveit/dobot_moveit.egg-info/dependency_links.txt
+[1.689s] writing entry points to ../../../build/dobot_moveit/dobot_moveit.egg-info/entry_points.txt
+[1.689s] writing requirements to ../../../build/dobot_moveit/dobot_moveit.egg-info/requires.txt
+[1.689s] writing top-level names to ../../../build/dobot_moveit/dobot_moveit.egg-info/top_level.txt
+[1.689s] writing manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'
+[1.691s] reading manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'
+[1.691s] writing manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'
+[1.691s] running build
+[1.691s] running build_py
+[1.691s] creating /home/lab-3d/dobot_ws/build/dobot_moveit/build
+[1.691s] creating /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib
+[1.691s] creating /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[1.691s] copying dobot_moveit/joint_states.py -> /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[1.691s] copying dobot_moveit/action_move_server.py -> /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[1.691s] copying dobot_moveit/__init__.py -> /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[1.691s] running install
+[1.692s] running install_lib
+[1.692s] creating /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[1.692s] copying /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit/joint_states.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[1.692s] copying /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit/action_move_server.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[1.692s] copying /home/lab-3d/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit/__init__.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[1.692s] byte-compiling /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/joint_states.py to joint_states.cpython-310.pyc
+[1.692s] byte-compiling /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/action_move_server.py to action_move_server.cpython-310.pyc
+[1.693s] byte-compiling /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/__init__.py to __init__.cpython-310.pyc
+[1.693s] running install_data
+[1.693s] creating /home/lab-3d/dobot_ws/install/dobot_moveit/share/ament_index
+[1.693s] creating /home/lab-3d/dobot_ws/install/dobot_moveit/share/ament_index/resource_index
+[1.693s] creating /home/lab-3d/dobot_ws/install/dobot_moveit/share/ament_index/resource_index/packages
+[1.693s] copying resource/dobot_moveit -> /home/lab-3d/dobot_ws/install/dobot_moveit/share/ament_index/resource_index/packages
+[1.693s] copying package.xml -> /home/lab-3d/dobot_ws/install/dobot_moveit/share/dobot_moveit
+[1.693s] creating /home/lab-3d/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[1.693s] copying launch/moveit_demo.launch.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[1.693s] copying launch/dobot_moveit.launch.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[1.693s] copying launch/moveit_gazebo.launch.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[1.693s] copying launch/dobot_joint.launch.py -> /home/lab-3d/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[1.693s] running install_egg_info
+[1.694s] Copying ../../../build/dobot_moveit/dobot_moveit.egg-info to /home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit-0.0.0-py3.10.egg-info
+[1.695s] running install_scripts
+[1.706s] Installing action_move_server script to /home/lab-3d/dobot_ws/install/dobot_moveit/lib/dobot_moveit
+[1.706s] Installing joint_states script to /home/lab-3d/dobot_ws/install/dobot_moveit/lib/dobot_moveit
+[1.706s] writing list of installed files to '/home/lab-3d/dobot_ws/build/dobot_moveit/install.log'
+[1.719s] Invoked command in '/home/lab-3d/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_moveit' returned '0': PYTHONPATH=/home/lab-3d/dobot_ws/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lab-3d/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_moveit build --build-base /home/lab-3d/dobot_ws/build/dobot_moveit/build install --record /home/lab-3d/dobot_ws/build/dobot_moveit/install.log --single-version-externally-managed install_data
