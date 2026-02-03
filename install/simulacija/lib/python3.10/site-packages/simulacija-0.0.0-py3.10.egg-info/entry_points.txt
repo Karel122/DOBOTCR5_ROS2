@@ -1,4 +1,0 @@
-[console_scripts]
-inverse = simulacija.inverse:main
-premik = simulacija.premik:main
-

@@ -1,4 +1,0 @@
-
-
-
-PointArray[] data
